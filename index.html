@@ -2,54 +2,48 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>【蛋仔派对】卢关时间到！一起来和朋友卢关吧！</title>
-    <!-- 已改为仓库内相对路径：图片.jpg，和index.html同目录即可 -->
-    <meta property="og:title" content="【蛋仔派对】好友邀请" />
-    <meta property="og:description" content="快来和好友一起玩吧！" />
+    <title>原神牛逼，原神牛逼，原神牛逼</title>
+    <meta property="og:title" content="【蛋仔派对】快来和你的好友“寻之所向”一起参加卢关活动吧！" />
+    <meta property="og:description" content="参与卢关活动赢大奖！" />
     <meta property="og:type" content="video" />
     <meta property="og:image" content="1768921916582.jpeg" />
     <meta property="og:url" content="https://xiaobaixun.github.io" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         * {margin: 0; padding: 0; box-sizing: border-box;}
-        body {min-height: 100vh; font-family: 微软雅黑;}
+        body {min-height: 100vh; font-family: 微软雅黑; background: #000;}
         video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
+            max-width: 90vw;
+            max-height: 80vh;
+            display: block;
+            margin: 20px auto;
+            object-fit: contain;
             z-index: 1;
         }
         .text-box {
-            position: fixed;
+            position: relative;
             z-index: 2;
-            left: 20px;
-            top: 50%;
-            transform: translateY(-50%);
             color: white;
             text-shadow: 0 0 8px #000;
-            padding: 10px;
+            padding: 10px 20px;
+            text-align: center;
         }
         h1 {font-size: 28px; margin-bottom: 15px;}
         p {font-size: 16px; line-height: 1.6;}
         @media (max-width: 768px) {
-            .text-box {left: 15px; top: 20px; transform: none;}
             h1 {font-size: 22px;}
             p {font-size: 14px;}
         }
     </style>
 </head>
 <body>
-    <video width="100%" height="100%" controls autoplay muted loop>
+    <div class="text-box">
+        <h1>何意味</h1>
+        <p>我还以为你死了呢lz</p>
+    </div>
+    <video width="100%" height="100%" controls autoplay loop>
         <source src="下载.mp4" type="video/mp4">
         你的浏览器不支持 HTML5 视频播放
     </video>
-    <div class="text-box">
-        <h1>何意味</h1>
-        <p>我还以为你死了呢</p>
-        <p>哪里标错了你说啊lz</p>
-    </div>
 </body>
 </html>
